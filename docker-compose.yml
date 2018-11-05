@@ -87,6 +87,7 @@ services:
     depends_on:
       - basket.data
       - tokenserver
+      - rabbitmq
 
   basket.data:
     image: redis
